@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a student developer learning programming and building skills">
+    <title>Student Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title" id="hero-title">
+                        Hi, I'm <span class="hero__name" id="typewriter-target"></span>
+                    </h1>
+                    <p class="hero__subtitle">Student Developer</p>
+                    <p class="hero__description">Aspiring software developer currently learning programming fundamentals and building real-world projects. Passionate about clean code and continuous learning.</p>
+                    <a href="#contact" class="btn btn--primary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero__scroll-indicator" aria-hidden="true">
+                <span class="scroll-text">Scroll</span>
+                <svg class="scroll-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </div>
+        </section>
+
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="glass-card">
+                    <h2 class="section__title" id="about-title">About Me</h2>
+                    <div class="about__content">
+                        <p class="about__text">I'm a student developer focused on building a strong foundation in information technologies and software engineering. My journey started with curiosity about how software works, and it has grown into a passion for solving problems through code.</p>
+                        <p class="about__text">Currently, I'm developing my skills in multiple programming languages and frameworks while learning core concepts like data structures, algorithms, and software design principles. I believe in writing clean, maintainable code and continuously improving through practice and real-world projects.</p>
+                        <p class="about__text">When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and connecting with other developers in the community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="glass-card">
+                    <h2 class="section__title" id="projects-title">Projects</h2>
+                    <p class="section__subtitle">Coming soon — building things worth sharing</p>
+                    <div class="projects__grid" role="list">
+                        <article class="project-card" role="listitem">
+                            <h3 class="project-card__title">First Website</h3>
+                            <p class="project-card__description">My first website project built with a classmate. A foundational learning experience in HTML, CSS, and basic web structure.</p>
+                            <div class="project-card__tags">
+                                <span class="project-card__tag">HTML</span>
+                                <span class="project-card__tag">CSS</span>
+                                <span class="project-card__tag">Collaborative</span>
+                            </div>
+                            <a href="first-web-three-ivory.vercel.app" class="project-card__link" target="_blank" rel="noopener noreferrer" aria-label="View First Website on Vercel">
+                                View on Vercel
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="learning" id="learning" aria-labelledby="learning-title">
+            <div class="container">
+                <div class="glass-card">
+                    <h2 class="section__title" id="learning-title">Currently Learning</h2>
+                    <p class="section__subtitle">Concepts and technologies I'm actively studying</p>
+                    <ul class="learning__list" role="list">
+                        <li class="learning__item">Object-Oriented Programming</li>
+                        <li class="learning__item">Data Structures & Algorithms</li>
+                        <li class="learning__item">C# & .NET Fundamentals</li>
+                        <li class="learning__item">Web Development (Frontend & Backend)</li>
+                        <li class="learning__item">Databases & SQL</li>
+                        <li class="learning__item">Software Development Practices</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="glass-card">
+                    <h2 class="section__title" id="contact-title">Contact</h2>
+                    <p class="section__subtitle">Feel free to reach out for collaborations or questions</p>
+                    <div class="contact__links">
+                        <a href="mailto:zyrusbatoy37@gmail.com" class="contact__link" aria-label="Send email">
+                            <span class="contact__link-label">Email</span>
+                            <span class="contact__link-value">zyrusbatoy37@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/Xen37" class="contact__link" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">
+                            <span class="contact__link-label">GitHub</span>
+                            <span class="contact__link-value">github.com/Xen37</span>
+                        </a>
+                        <a href="https://linkedin.com/in/[your-username]" class="contact__link" target="_blank" rel="noopener noreferrer" aria-label="View LinkedIn profile">
+                            <span class="contact__link-label">LinkedIn</span>
+                            <span class="contact__link-value">wala pa</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p class="footer__text">&copy; 2026 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
